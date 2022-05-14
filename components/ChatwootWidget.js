@@ -21,7 +21,8 @@ const ChatwootWidget = () => {  useEffect(() => {
       s.parentNode.insertBefore(g,s);
       g.onload=function(){
         window.chatwootSDK.run({
-          websiteToken: 'F6S8X1ZEDj51BcxGs6YED8sp',
+          websiteToken: <WEBSITETOKEN>
+            ,
           baseUrl: BASE_URL
         })
       }
